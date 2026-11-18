@@ -2,3 +2,4 @@ dsp/build/
 node_modules/
 dist/
 *.wasm
+dsp/out/
