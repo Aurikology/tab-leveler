@@ -15,5 +15,8 @@ endif()
 add_executable(test_leveler tests/test_leveler.cpp)
 target_link_libraries(test_leveler PRIVATE leveler)
 
+add_executable(parity_native tests/parity_native.cpp)
+target_link_libraries(parity_native PRIVATE leveler)
+
 enable_testing()
 add_test(NAME dsp COMMAND test_leveler)
